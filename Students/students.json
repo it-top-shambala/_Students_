@@ -1,0 +1,22 @@
+﻿[
+  {
+    "FirstName": "Andrey",
+    "LastName": "Starinin",
+    "DateOfBirth": "1986-02-18T00:00:00",
+    "Faculty": "SoftDev",
+    "IsActive": true,
+    "Marks": [
+      {
+        "Data": "2023-07-16T00:00:00",
+        "Subject": "Programming",
+        "Teacher": {
+          "FirstName": "Andrey",
+          "LastName": "Starinin",
+          "DateOfBirth": "1986-02-18T00:00:00",
+          "Department": "C#"
+        },
+        "Rating": 50
+      }
+    ]
+  }
+]

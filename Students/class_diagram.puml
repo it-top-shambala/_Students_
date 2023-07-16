@@ -1,0 +1,34 @@
+﻿@startuml
+'https://plantuml.com/class-diagram
+
+class Person {
++ first_name: string
++ last_name : string
++ date_of_birth : DateTime
+
++ GetAge() : int
++ GetFullName() : string
+}
+
+Person <|-- Teacher
+class Teacher {
++ department : string
+}
+
+Teacher <--* Mark
+class Mark {
++ data : DateTime
++ subject : string
++ teacher : Teacher
++ rating : int
+}
+
+Person <|-- Student
+Mark <--o Student
+class Student {
++ faculty : string
++ is_active : bool
++ marks : Mark[]
+}
+
+@enduml
